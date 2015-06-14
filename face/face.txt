@@ -1,0 +1,34 @@
+Mass properties of Face
+     Configuration: Default
+     Coordinate system: -- default --
+
+Density = 1130.00000000 kilograms per cubic meter
+
+Mass = 0.47386924 kilograms
+
+Volume = 0.00041935 cubic meters
+
+Surface area = 0.16876339 square meters
+
+Center of mass: ( meters )
+	X = 0.00000000
+	Y = 0.00255348
+	Z = 0.07206543
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = (1.00000000, 0.00000000, 0.00000000)   	Px = 0.00212082
+	 Iy = (0.00000000, 0.16970100, -0.98549560)   	Py = 0.00222169
+	 Iz = (0.00000000, 0.98549560, 0.16970100)   	Pz = 0.00229495
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system.
+	Lxx = 0.00212082	Lxy = 0.00000000	Lxz = 0.00000000
+	Lyx = 0.00000000	Lyy = 0.00229284	Lyz = -0.00001225
+	Lzx = 0.00000000	Lzy = -0.00001225	Lzz = 0.00222380
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system.
+	Ixx = 0.00458492	Ixy = 0.00000000	Ixz = 0.00000000
+	Iyx = 0.00000000	Iyy = 0.00475384	Iyz = 0.00007495
+	Izx = 0.00000000	Izy = 0.00007495	Izz = 0.00222689

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="ground_plane">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>100 100</size>
+          </plane>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>100 100</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name='FACE'>
+    <pose>1.5371 -1.50745 0.5 0 -0 0</pose>
+    <link name='defaultModel_0::custom_-27'>
+      <pose>0 0 0 0 -0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <visual name='custom_-27_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>/media/trannguyenphuongtrinh_eeit13/01D0512D26AB19B0/ROBOT/retry2/face/Face.STL</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='defaultModel_0::custom_-27_collision'>
+        <geometry>
+          <mesh>
+            <uri>/media/trannguyenphuongtrinh_eeit13/01D0512D26AB19B0/ROBOT/retry2/face/Face.STL</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+        <pose>0 0 0 0 -0 0</pose>
+      </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
